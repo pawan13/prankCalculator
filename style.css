@@ -1,0 +1,85 @@
+ .wrapper{
+    height: 30vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    grid-template-areas: 
+    "txtArea txtArea txtArea txtArea"
+    "C bracket mod d"
+    "seven eight nine x"
+    "four five six sub"
+    "one two three add"
+    "clear xero dot equal";
+}
+h1{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.txtArea{
+    grid-area: txtArea;
+    text-align: right;
+    background: black;
+    color: whitesmoke;
+}
+.btn-1{
+    grid-area: one;
+}
+.btn-2{
+    grid-area: two;
+}
+.btn-3{
+    grid-area: three;
+}
+.btn-4{
+    grid-area: four;
+}
+.btn-5{
+    grid-area: five;
+}
+.btn-6{
+    grid-area: six;
+}
+.btn-7{
+    grid-area: seven;
+}
+.btn-8{
+    grid-area: eight;
+}
+.btn-9{
+    grid-area: nine;
+}
+.btn-0{
+    grid-area: xero;
+}
+.btn-dot{
+    grid-area: dot;
+}
+.btn-+{
+    grid-area: add;
+}
+.btn--{
+    grid-area: sub;
+}
+.btn-x{
+    grid-area: x;
+}
+.btn-d{
+    grid-area: d;
+}
+.btn-C{
+    grid-area: C;
+}
+.btn-bracket{
+    grid-area: bracket;
+}
+.btn-equal{
+    grid-area: equal;
+}
+.btn-clear{
+    grid-area: clear;
+}
+.btn-mod{
+    grid-area: mod;
+}
