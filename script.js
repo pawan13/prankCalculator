@@ -28,7 +28,7 @@ function pressClear(){
 var clickCount = 0;
 function pressEqual(e){
      clickCount++;
-    if (clickCount === Math.round(Math.random()+1)){
+    if (clickCount === Math.round(Math.random()*5)+1){
         output.innerHTML = Math.round(Math.random()*5) 
          output.style.backgroundColor="red"
          output.style.translate = "10px"
