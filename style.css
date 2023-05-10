@@ -22,6 +22,7 @@ h1{
     text-align: right;
     background: black;
     color: whitesmoke;
+    resize: none;
 }
 .btn-1{
     grid-area: one;
